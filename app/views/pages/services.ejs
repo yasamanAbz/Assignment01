@@ -3,13 +3,53 @@
   <head>
     <%- include('../partials/header'); %>
   </head>
-  <body class="container">
+  <body>
     <header><%- include('../partials/content'); %></header>
 
     <main>
-      <div class="jumbotron">
-        <h1>This is great</h1>
-        <p>Welcome to service page</p>
+      <div class="services-container">
+        <div class="service">
+          <img
+            src="/asset/web.jpg"
+            alt="Web Development"
+            class="service-image"
+          />
+          <div class="service-info">
+            <h2 class="service-title">Web Development</h2>
+            <p class="service-description">
+              Building responsive and scalable websites using the latest web
+              technologies to deliver seamless user experiences.
+            </p>
+          </div>
+        </div>
+        <div class="service">
+          <img
+            src="/asset/mobile.jpeg"
+            alt="Mobile Apps"
+            class="service-image"
+          />
+          <div class="service-info">
+            <h2 class="service-title">Mobile Apps</h2>
+            <p class="service-description">
+              Designing and developing user-friendly mobile apps for both
+              Android and iOS platforms tailored to client needs.
+            </p>
+          </div>
+        </div>
+        <div class="service">
+          <img
+            src="/asset/general.jpg"
+            alt="General Programming"
+            class="service-image"
+          />
+          <div class="service-info">
+            <h2 class="service-title">General Programming</h2>
+            <p class="service-description">
+              Offering custom software solutions, script automation, and system
+              integrations to enhance business processes.
+            </p>
+          </div>
+        </div>
       </div>
     </main>
 
