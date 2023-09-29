@@ -142,3 +142,43 @@ nav li a:hover {
 .resume-link:hover {
   background-color: #00575d;
 }
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  height: calc(100vh - 200px);
+  justify-content: space-between;
+}
+
+.project {
+  flex: 1 1 calc(33.33% - 30px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+  height: fit-content;
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.project-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 1.5em;
+  padding: 10px 15px;
+  background-color: teal;
+  color: #fff;
+  margin: 0;
+}
+
+.project-description {
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+}

@@ -3,13 +3,49 @@
   <head>
     <%- include('../partials/header'); %>
   </head>
-  <body class="container">
+  <body>
     <header><%- include('../partials/content'); %></header>
 
     <main>
-      <div class="jumbotron">
-        <h1>This is great</h1>
-        <p>Welcome to project page</p>
+      <div class="projects-container">
+        <div class="project">
+          <img
+            src="/asset/nodejs.png"
+            alt="First Project"
+            class="project-image"
+          />
+          <h2 class="project-title">Project One</h2>
+          <p class="project-description">
+            Developed the backend API using Node.js. The project resulted in a
+            50% increase in user engagement and improved the platform's overall
+            performance.
+          </p>
+        </div>
+        <div class="project">
+          <img
+            src="/asset/reactjs.png"
+            alt="Second Project"
+            class="project-image"
+          />
+          <h2 class="project-title">Project Two</h2>
+          <p class="project-description">
+            Led the frontend team using React.js, introducing new UI/UX designs.
+            The revamped interface was well-received with positive user
+            feedback.
+          </p>
+        </div>
+        <div class="project">
+          <img
+            src="/asset/angular.png"
+            alt="Third Project"
+            class="project-image"
+          />
+          <h2 class="project-title">Project Three</h2>
+          <p class="project-description">
+            Collaborated with a cross-functional team to launch a mobile app.
+            The application gained over 10,000 downloads within the first month.
+          </p>
+        </div>
       </div>
     </main>
 
