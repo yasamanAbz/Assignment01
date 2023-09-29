@@ -3,14 +3,26 @@
   <head>
     <%- include('../partials/header'); %>
   </head>
-  <body class="container">
+  <body>
     <header><%- include('../partials/content'); %></header>
 
     <main>
-      <div class="jumbotron">
-        <h1>This is great</h1>
-        <p>Welcome to templating using EJS</p>
-      </div>
+      <section class="welcome-section">
+        <h1>Welcome to Yasaman's Website</h1>
+        <p>
+          I am delighted to have you here. Explore my range of projects, learn
+          more about my services, and get to know me better. Thank you for
+          visiting!
+        </p>
+        <h2>Our Mission</h2>
+        <p>
+          At YA's website, we strive to deliver high-quality content, innovative
+          solutions, and foster a community of learning and sharing. Together,
+          we're shaping the future one project at a time.
+        </p>
+
+        <a href="/about" class="about-button">Learn More About Us</a>
+      </section>
     </main>
 
     <footer><%- include('../partials/footer'); %></footer>
