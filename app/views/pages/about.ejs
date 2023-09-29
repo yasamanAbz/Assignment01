@@ -3,16 +3,30 @@
   <head>
     <%- include('../partials/header'); %>
   </head>
-  <body class="container">
+  <body>
     <header><%- include('../partials/content'); %></header>
-
     <main>
-      <div class="jumbotron">
-        <h1>This is great</h1>
-        <p>Welcome to about page</p>
+      <div class="about-container">
+        <h1 class="about-name">Yasaman Abbaszadehmeymandi</h1>
+        <img src="/asset/profile.jpg" alt="John Doe" class="profile-pic" />
+
+        <p class="about-description">
+          A passionate web developer with a strong zeal to work with emerging
+          technologies. I have been in the tech industry for the past 3 years,
+          honing my skills and contributing to various projects that have made a
+          difference. When not coding, I enjoy hiking and reading about space
+          exploration. I am currently open to new opportunities and challenges.
+        </p>
+        <a
+          href="/asset/resume.pdf"
+          class="resume-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View My Resume
+        </a>
       </div>
     </main>
-
     <footer><%- include('../partials/footer'); %></footer>
   </body>
 </html>
