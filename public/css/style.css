@@ -222,3 +222,42 @@ nav li a:hover {
 .service-description {
   color: #555;
 }
+.contact-panel {
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin: 10px 30px;
+  background-color: #f9f9f9;
+}
+
+.contact-form-container {
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin: 10px 30px;
+  background-color: #ffffff;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.send {
+  padding: 10px 15px;
+  background-color: teal;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send:hover {
+  background-color: #005d66;
+}
